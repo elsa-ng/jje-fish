@@ -35,12 +35,12 @@ nav ul{
 
 nav ul li{
     display:inline-block;
-    background-color: #06716e;
+    background-color: #004C80;
 }
 
 nav ul li a{
-    background-color: #06716e;
-    color: #eee;
+    background-color: #004C80;
+    color: #95F2FF;
     text-decoration: none;
     padding:0 5px;	
     font-weight:bold;
@@ -49,12 +49,12 @@ nav ul li a{
 }
 
 nav ul li a:active{
-    color: rgb(156, 154, 154);
+    color: #95F2FF;
     text-decoration: none;
 }
 
 nav ul li a:hover{
-    color: rgb(156, 154, 154);
+    color: #95F2FF;
     text-decoration: none;
 }
 
