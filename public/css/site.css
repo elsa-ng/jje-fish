@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+   margin: 0;
+   width:100%;
+   height:100%;
+   font-family: 'Raleway', sans-serif;
+   background-image: url("/img/bg3a.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+header{
+    /*background-color: #0abab5;*/
+    padding:5px 25px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+nav{
+    padding:8px;
+    /*background-color: #06716e;*/
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left:0px;
+    margin:0px;
+}
+
+nav ul li{
+    display:inline-block;
+    background-color: #06716e;
+}
+
+nav ul li a{
+    background-color: #06716e;
+    color: #eee;
+    text-decoration: none;
+    padding:0 5px;	
+    font-weight:bold;
+    text-transform: uppercase;
+    font-size:13px;
+}
+
+nav ul li a:active{
+    color: rgb(156, 154, 154);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(156, 154, 154);
+    text-decoration: none;
+}
+
+aside.col-md-3{
+    background-color: #c7fcfa
+}
+
+.text {
+    color: #95F2FF;
+    font-size: 26px;
+}
+
+footer{
+    /*background-color: #06716e;*/
+    color: #95F2FF;
+    padding:10px;
+}
+
+footer h2{
+    margin:0px;
+    text-transform: uppercase;
+    font-size:13px;
+    padding:0 5px;	
+}
