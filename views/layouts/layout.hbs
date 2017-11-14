@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
     	<title>JJE Fish</title>
         <link rel="stylesheet" 
-            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
             type="text/css" />
         <link rel="stylesheet" href="/css/site.css" type="text/css" />
     </head>
@@ -18,44 +18,51 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="text">Making an Ocean of Difference</div>
+                        <nav class="navbar navbar-light navbar-expand-lg"> 
+                            <span class="navbar-brand md-0">Making an Ocean of Difference</span>
+                            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                    <a class="nav-link" href="/">Home</a>
+                                    <a class="nav-link" href="/stakeholders">Stakeholders</a>
+                                    <a class="nav-link" href="/iteration1">Iteration 1</a>
+                                    <a class="nav-link" href="/pid">P.I.D.</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="/businessrules" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Business Rules</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <a class="dropdown-item" href="iteration2">Iteration 2</a>
+                                            <a class="dropdown-item" href="/timeline">Timeline</a>
+                                            <a class="dropdown-item" href="/about">About Us</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
                     </div>
-
                 </div>
-            </div>
+            </div>   
         </header>
-        <nav>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul class="pull-left">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/stakeholders">Stakeholders</a></li>
-                            <li><a href="/iteration1">Iteration 1</a></li>
-                            <li><a href="/pid">P.I.D.</a></li>
-                            <li><a href="/businessrules">Business Rules</a></li>
-                            <li><a href="iteration2">Iteration 2</a></li>
-                        </ul>
-                        <ul class="pull-right">
-                            <li><a href="/student/jason">Jason Kwan</a></li>
-                            <li><a href="/studet/joel">Joel Kwan</a></li>
-                            <li><a href="/student/elsa">Elsa (Wai Chi) Ng</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
+
         <div class="container">
             {{{body}}}
         </div>
+
         <footer>
             <div class="container">
-                <div class="row">
+                <div class="row align-items-end">
                     <div class="col-md-12">
-                        <h2>© 2017 - JJE Fish</h2>
+                            © 2017 - JJE Fish
                     </div>
                 </div>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
     </body>
 </html>

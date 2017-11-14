@@ -1,81 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-body{
-   margin: 0;
-   width:100%;
-   height:100%;
+body {
    font-family: 'Raleway', sans-serif;
    background-image: url("/img/bg3a.jpg");
    background-attachment: fixed;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+   color: #95F2FF;
 }
 
-header{
-    /*background-color: #0abab5;*/
-    padding:5px 25px;
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #logo {
+    margin-left: -15px;
     max-width: 100%;
     height: auto;
 }
 
-nav{
-    padding:8px;
-    /*background-color: #06716e;*/
-}
-
-nav ul{
-    list-style-type: none;
-    padding-left:0px;
-    margin:0px;
-}
-
-nav ul li{
-    display:inline-block;
-    background-color: #004C80;
-}
-
-nav ul li a{
-    background-color: #004C80;
+.navbar.navbar-light a.nav-link:hover, .navbar.navbar-light a.nav-link:visited,
+.navbar.navbar-light a.nav-link:active, .navbar.navbar-light a.nav-link:link,
+.navbar.navbar-light a.dropdown-item:hover, .navbar.navbar-light a.dropdown-item:visited,
+.navbar.navbar-light a.dropdown-item:active, .navbar.navbar-light a.dropdown-item:link,
+.navbar.navbar-light .navbar-brand, .navbar.navbar-light .dropdown-menu {
     color: #95F2FF;
+    font-size: 18px;
     text-decoration: none;
-    padding:0 5px;	
-    font-weight:bold;
+    background: transparent;
+    border: none;
+}
+
+.navbar.navbar-light {
+    margin-left: -15px; 
+}
+
+.navbar.navbar-light .navbar-toggler,
+.navbar.navbar-light .navbar-toggler.collapsed {
+    border-color: #95F2FF;
+}
+  
+.navbar.navbar-light .navbar-toggler.collapsed .navbar-toggler-icon,
+.navbar.navbar-light .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(149,242,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+footer {
+    padding-top: 30px;
     text-transform: uppercase;
-    font-size:13px;
-}
-
-nav ul li a:active{
-    color: #95F2FF;
-    text-decoration: none;
-}
-
-nav ul li a:hover{
-    color: #95F2FF;
-    text-decoration: none;
-}
-
-aside.col-md-3{
-    background-color: #c7fcfa
-}
-
-.text {
-    color: #95F2FF;
-    font-size: 26px;
-}
-
-footer{
-    /*background-color: #06716e;*/
-    color: #95F2FF;
-    padding:10px;
-}
-
-footer h2{
-    margin:0px;
-    text-transform: uppercase;
-    font-size:13px;
-    padding:0 5px;	
+    font-size: 13px;
 }
