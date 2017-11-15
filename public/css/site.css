@@ -4,7 +4,11 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    background: url("/img/bg3a.jpg") no-repeat center center fixed; 
+    background-image: url("/img/bg3a.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #95F2FF;
 }
 
