@@ -1,20 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
+        background-image: url("/img/bg3a.jpg");
         height:100vh;
     }
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        height: 100%;
+        width: 100%;
+        background-image: url("/img/bg3a.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }    
 }
 
 body {
     height: 100%;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    background-image: url("/img/bg3a.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     color: #95F2FF;
 }
 
