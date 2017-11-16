@@ -2,9 +2,11 @@
 
 @media screen and (max-width: 768px) {
     body {
+        max-width: 100%;
+        height: auto;
         background-image: url("/img/bg3b.jpg");
         background-repeat: no-repeat;
-        height:100vh;
+        background-attachment: fixed;
     }
 }
 
