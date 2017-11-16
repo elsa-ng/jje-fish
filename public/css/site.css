@@ -7,6 +7,8 @@
         background-image: url("/img/bg3b.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
     }
 }
 
