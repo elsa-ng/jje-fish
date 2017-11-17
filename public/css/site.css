@@ -45,6 +45,10 @@ header {
     height: auto;
 }
 
+.container.bodyContent {
+    padding-right: 30px;
+}
+
 .navbar.navbar-light a.nav-link:hover, .navbar.navbar-light a.nav-link:visited,
 .navbar.navbar-light a.nav-link:active, .navbar.navbar-light a.nav-link:link,
 .navbar.navbar-light a.dropdown-item:hover, .navbar.navbar-light a.dropdown-item:visited,
