@@ -19,6 +19,10 @@ app.get("/", (req, res)=>{
     res.render("home");
 });
 
+app.use((req, res)=>{
+    res.status(404).render("notFound");
+});
+
 app.listen(HTTP_PORT, ()=>{
     console.log("server listening on " + HTTP_PORT);
 });
