@@ -3,6 +3,7 @@
 @media screen and (max-width: 768px) {
     body {
         background-image: url("/img/bg3a_mobile.jpg");
+        height: 100vh;
     }
 }
 
@@ -10,21 +11,24 @@
     body {
         background-image: url("/img/bg3a.jpg");
         background-position: center center;
+        min-height: 100%;
     }    
 }
 
 html {
     height: 100%;
+    overflow: hidden;
 }
 
 body {
-    min-height: 100%;
     width: 100%;
     font-family: 'Raleway', sans-serif;
     color: #95F2FF;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 
 header {
