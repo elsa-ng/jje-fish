@@ -1,4 +1,4 @@
-# jje-fish - Fall 2017 SYS366 Fishackathon Case Study
+# Fall 2017 SYS366 Fishackathon Case Study: jje-fish
 
 Note that automatic deploys from master branch to Heroku are enanbled: https://jje-fish.herokuapp.com/
 
