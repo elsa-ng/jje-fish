@@ -1,8 +1,4 @@
-# jje-fish
-## Fall 2017 SYS366 Fishackathon Case Study
-
-### Keep Calm, Code On and Don't Plagiarize!
-It is okay to read someone's code and learn from it. If you find my code useful and would like to include it in your solution then please reference it.
+# jje-fish - Fall 2017 SYS366 Fishackathon Case Study
 
 Note that automatic deploys from master branch to Heroku are enanbled: https://jje-fish.herokuapp.com/
 
@@ -10,18 +6,25 @@ JJE Fish has the opportunity to analyze one of the challenge sets of Fishackatho
 
 To learn more about Fishackathon, visit: http://fishackathon.hackernest.com/
 
-### Purpose
+## Purpose
 The purpose of this project is to apply system analysis principles learned in SYS366 to analyze the case study chosen and publish the analysis to a website, which is created using knowledge obtained from WEB322.
 
+## Getting Started
+This Node.js web application is developed using Visual Studio Code. To obtain a copy of the project, simply clone the master branch.
+
 ### Prerequisites
-In order to run this node.js web application on your local machine, you will need to install the following dependencies:
+Should you wish to modify/run this Node.js web application on your local machine, you will need to use an IDE such as Visual Studio Code and install Node.js. 
+
+In addition, you will need to install the following dependencies:
 * express
 * express-handlebars
 * body-parser
-Please refer to package.json for details.
+
 To simply access this web application online, please visit: https://jje-fish.herokuapp.com/
 
-### Installing
+### Installation
+To install Node.js, please visit https://nodejs.org/ to download the current release. Please follow the on screen instructions to install the current release. 
+
 To install the dependencies, simply run the following commands:
 ```
 npm install express --save
@@ -32,3 +35,29 @@ npm install express-handlebars --save
 ```
 npm install body-parser --save
 ```
+
+To simply access this web application online, please visit: https://jje-fish.herokuapp.com/
+
+## Built With
+* [Node.js] (https://nodejs.org/) - JavaScript runtime
+* [Express.js] (https://expressjs.com/) - Web application framework
+* [Body-parser] (https://www.npmjs.com/package/body-parser) - Parses incoming request bodies in a middleware
+* [Handlebars.js] (http://handlebarsjs.com/) - Templates the layout
+* [Bootstrap 4] (https://v4-alpha.getbootstrap.com/) - Framework for building responsive application
+* HTML
+* CSS
+* JavaScript
+
+## Versioning
+[SemVer] (http://semver.org/) is used for versioning. The current version of the software, as of November 18, 2017, is version 1.0.0. 
+
+## Deployment
+Automatic deploys from master branch to Heroku are enanbled: https://jje-fish.herokuapp.com/
+
+## Authors
+* **Jason Kwan**
+* **Joel Kwan**
+* **Elsa (Wai Chi) Ng**
+
+## License
+This project is licensed under the [ISC License] (https://www.isc.org/downloads/software-support-policy/isc-license/)

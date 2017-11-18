@@ -1,7 +1,7 @@
 {
   "name": "jje-fish",
   "version": "1.0.0",
-  "description": "<h1>SYS366 Fishackathon Case Study</h1>",
+  "description": "SYS366 Fishackathon Case Study",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/elsa-ng/jje-fish.git"
   },
-  "author": "Elsa (Wai Chi)",
+  "author": "Elsa (Wai Chi) Ng",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elsa-ng/jje-fish/issues"
