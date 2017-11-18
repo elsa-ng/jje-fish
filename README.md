@@ -16,9 +16,9 @@ This Node.js web application is developed using Visual Studio Code. To obtain a 
 Should you wish to modify/run this Node.js web application on your local machine, you will need to use an IDE such as Visual Studio Code and install Node.js. 
 
 In addition, you will need to install the following dependencies:
-* express
-* express-handlebars
-* body-parser
+* [Express.js](https://expressjs.com/)
+* [Handlebars.js](http://handlebarsjs.com/)
+* [Body-parser](https://www.npmjs.com/package/body-parser)
 
 To simply access this web application online, please visit: https://jje-fish.herokuapp.com/
 
@@ -39,17 +39,17 @@ npm install body-parser --save
 To simply access this web application online, please visit: https://jje-fish.herokuapp.com/
 
 ## Built With
-* [Node.js] (https://nodejs.org/) - JavaScript runtime
-* [Express.js] (https://expressjs.com/) - Web application framework
-* [Body-parser] (https://www.npmjs.com/package/body-parser) - Parses incoming request bodies in a middleware
-* [Handlebars.js] (http://handlebarsjs.com/) - Templates the layout
-* [Bootstrap 4] (https://v4-alpha.getbootstrap.com/) - Framework for building responsive application
+* [Node.js](https://nodejs.org/) - JavaScript runtime
+* [Express.js](https://expressjs.com/) - Web application framework
+* [Body-parser](https://www.npmjs.com/package/body-parser) - Parses incoming request bodies in a middleware
+* [Handlebars.js](http://handlebarsjs.com/) - Templates the layout
+* [Bootstrap 4](https://v4-alpha.getbootstrap.com/) - Framework for building responsive application
 * HTML
 * CSS
 * JavaScript
 
 ## Versioning
-[SemVer] (http://semver.org/) is used for versioning. The current version of the software, as of November 18, 2017, is version 1.0.0. 
+[SemVer](http://semver.org/) is used for versioning. The current version of the software, as of November 18, 2017, is version 1.0.0. 
 
 ## Deployment
 Automatic deploys from master branch to Heroku are enanbled: https://jje-fish.herokuapp.com/
@@ -60,4 +60,4 @@ Automatic deploys from master branch to Heroku are enanbled: https://jje-fish.he
 * **Elsa (Wai Chi) Ng**
 
 ## License
-This project is licensed under the [ISC License] (https://www.isc.org/downloads/software-support-policy/isc-license/)
+This project is licensed under the [ISC License](https://www.isc.org/downloads/software-support-policy/isc-license/)
